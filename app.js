@@ -17,7 +17,7 @@ const app = express();
 
  //send apikey and server to fetch/post data
 monkeyClient.setConfig({
-    apiKey: "aa1db7bf06c1c0d1780c85379d9ff7bbeb-us5",
+    apiKey: "1db7bf06c1c0d1780c85379d9ff7bbeb-us5",
     server: "us5",
   });
   
