@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign up</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    
+<main class="form-signin">
+  <form action="/" method="POST">
+    <img class="mb-4" src="images/hearto.png" width="72" height="57">
+    <h1 class="h3 mb-3 fw-normal">Sign Up For Newsletters!</h1>
+    <input type="text" name="fName" class="form-control top" placeholder="first name" required autofocus>
+    <input type="text" name="lName" class="form-control middle" placeholder="second name" required>
+    <input type="email" name="email" class="form-control bottom" placeholder="email" required>
+     
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Subscribe</button>
+    <p class="mt-5 mb-3 text-muted">&copy; The app monke</p>
+  </form>
+</main>
+  </body>
+</html>
